@@ -1,3 +1,4 @@
+#!/bin/bash
 #install motd
 rm -rf /tmp/motd
 cd /tmp

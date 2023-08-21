@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf /var/log/*.log
 rm -rf /var/log/*.gz
 rm -rf /var/log/*.1
