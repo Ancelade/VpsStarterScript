@@ -1,2 +1,7 @@
-apt update && apt upgrade -y
-apt install -y nload htop tcpdump nano vnstat 
+#install motd
+rm -rf /tmp/motd
+cd /tmp
+wget https://raw.githubusercontent.com/Ancelade/VpsStarterScript/main/motd
+cp motd /etc/motd
+
+
