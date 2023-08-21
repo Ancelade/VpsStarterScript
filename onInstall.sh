@@ -22,3 +22,4 @@ echo "UseDNS no" >> /etc/ssh/sshd_config
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 echo 'PS1="\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[36m\]\h\[\e[m\]:\w "' >> ~/.bashrc && source ~/.bashrc
+source /root/.bashrc
